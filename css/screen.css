@@ -1,0 +1,99 @@
+/* Reset */
+body, p, div, ul, li, h1, h2{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+html {
+    background:url(../img/html_bg.png) repeat-x scroll 0 0 #5F5F5F;
+    overflow-y:scroll;
+}
+body{	
+	font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 14px;	
+}
+h1{
+	color:#F6A828;
+	font-size:36px;
+	padding-top:30px;
+}
+h2{
+	color:#FFFFFF;
+	font-size:16px;
+	font-style:italic;
+	text-indent:430px;
+}
+#header{
+	background:url(../img/background.jpg) no-repeat scroll center top transparent;
+	height:226px;
+	margin:0 auto;
+	width:900px;
+}
+#wrapper{
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border:#F6A828 solid 3px;
+	border-top:#F6A828 solid 20px;
+	background-color:#FFF;
+	margin:-100px auto 15px;
+	width:900px;	
+}
+#account_form{
+	margin:10px 50px 20px;
+}
+#account_form p{
+	margin-bottom:5px;
+}
+#account_form input[type=submit]{
+	font-size:12px;
+	height:30px;
+	width:100px;
+}
+#account_form .orange{
+	color:#EB8F00;
+}
+#account_form input[type=text]{
+	height:18px;
+	margin-right:25px;
+	width:130px;
+}
+#loader{
+	background:url(../img/loading.gif) no-repeat;
+	display:inline-block;
+	height:16px;
+	margin-left:10px;
+	width:16px;
+}
+.tweet{
+	border-bottom:#999999 dashed 1px;
+	list-style:none;
+	min-height:54px;
+	margin:10px 50px 20px;
+	padding-bottom:10px;
+}
+.profile_pic{
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border:#F6A828 solid 3px;
+	float:left;
+}
+.tweet_text{
+	padding-top:10px;
+	margin-left:75px;
+}
+.author{
+	color:#999999;
+	font-size:12px;
+	margin:5px 0 0 75px;
+	text-indent:15px;
+}
+#error{
+	margin:20px 50px 10px;
+	padding:0.7em;
+}
+#error .ui-icon{
+	float:left; 
+	margin-right:.3em;
+}
